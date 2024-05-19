@@ -246,7 +246,7 @@ declare interface CategoryProps {
   category: CategoryCount;
 }
 
-declare interface DoughnutChartProps {
+interface DoughnutChartProps {
   accounts: Account[];
 }
 
