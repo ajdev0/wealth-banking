@@ -8,14 +8,14 @@ declare type SearchParamProps = {
 // ========================================
 
 declare type SignUpParams = {
-  firstName?: string;
-  lastName?: string;
-  address?: string;
-  city?: string;
-  state?: string;
-  postalCode?: string;
-  dateOfBirth?: string;
-  ssn?: string;
+  firstName: string;
+  lastName: string;
+  address1: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  dateOfBirth: string;
+  ssn: string;
   email: string;
   password: string;
 };
@@ -25,6 +25,7 @@ declare type LoginUser = {
   password: string;
 };
 
+//plaid
 declare type User = {
   $id: string;
   email: string;
@@ -34,7 +35,7 @@ declare type User = {
   firstName: string;
   lastName: string;
   name: string;
-  address: string;
+  address1: string;
   city: string;
   state: string;
   postalCode: string;
