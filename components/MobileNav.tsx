@@ -50,7 +50,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     pathName === item.route ||
                     pathName.startsWith(`${item.route}`);
                   return (
-                    <SheetClose asChild>
+                    <SheetClose asChild key={item.label}>
                       <Link
                         href={item.route}
                         key={item.label}
