@@ -23,7 +23,7 @@ const BankCard = ({ account, userName, showBalance }: CreditCardProps) => {
               <h2 className="text-12 font-semibold text-white">●● / ●●</h2>
             </div>
             <p className="text-14 font-semibold text-white tracking-[1.1px]">
-              ●●●● ●●●● ●●●● <span className="text-16">{1234}</span>
+              ●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span>
             </p>
           </article>
         </div>
